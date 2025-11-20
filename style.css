@@ -1,0 +1,250 @@
+.nav {
+    
+    background-color: rgb(183, 206, 92);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none ;
+    font-size: 20px;
+    
+}
+
+.nav a {
+color: rgba(223, 253, 27, 0.93);
+
+}
+
+
+.navi { font-size: 30px;}
+
+
+
+.border {
+    background-color: rgb(50, 42, 42);
+    padding: 10px;
+}
+.border1 {
+    background-color: rgb(50, 42, 42);
+    padding: 10px;
+}
+.border1 h2 {
+    border-style: inset;
+    border-radius: 100px 100px 25px 25px;
+}
+
+
+.menu {
+    background-color: rgb(66, 41, 48);
+    height: 200px;
+    padding-bottom: 280px;
+    text-align: center;
+    border-radius: 50px;
+    margin: 30px ;
+}
+
+.menu h3{
+   color: rgb(235, 242, 36);
+    
+}
+
+.menuu {
+    background-color: rgb(78, 24, 24);
+    height: 200px;
+    padding-bottom: 280px;
+    text-align: center;
+    border-radius: 50px;
+    margin: 30px;
+
+}
+
+
+.menuu h3{
+   
+   
+    color: rgb(235, 242, 36);
+}
+
+
+.menuuu {
+    background-color: #e5c926;
+    height: 200px;
+    text-align: center;
+    border-radius: 50px;
+    margin: 30px;
+    padding-bottom: 280px;
+}
+
+.menuuu h3 {
+  
+    
+    color: rgb(235, 242, 36);
+
+}
+
+
+.borderr {
+    background-color: rgb(183, 206, 92);
+    padding: 10px;
+}
+
+.rating {
+    text-align: center;
+   
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.ratings {
+    text-align: left;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.bg {
+    text-align: center;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.bg p{
+    background-color: rgb(48, 41, 41);
+}
+ .rating h3{
+    color: rgb(251, 240, 240);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px rgb(241, 119, 4);
+
+ }
+a{
+    text-decoration: none rgb(6, 63, 11);
+    
+}
+
+a:hover{
+    color: rgb(232, 232, 71);
+}
+.ans{
+    border-radius: 20px 20px 0px 0px;
+}
+.ans img{
+   width: 200px;
+    height: 200px;
+
+}
+.menus{
+    background-color: rgb(7, 34, 19);
+    border-radius: 20px;
+    font-size: 20px;
+    text-indent: 25px;
+}
+
+
+
+.apsmenu{
+    background-color: rgb(95, 9, 16);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-style: double;
+    border-radius: 20px;
+}
+
+.maindish img{
+   width: 200px;
+    height: 200px;}
+.desserts {
+    border-radius: 0px 0px 20px 20px;
+}
+
+.desserts img{
+   width: 200px;
+    height: 200px;}
+
+
+.lastpg{
+    background-color: blueviolet;
+    border-radius: 0px;
+    padding: 20px;
+}
+.frames img{
+     width: 4px;
+     height: 625px;
+     padding-bottom: 40px;
+     
+}
+.ai{
+      position: relative;
+      display: inline-block;
+    
+}
+.ai img{
+    width: 1200px;
+    border-radius: 20px;
+}
+.aii{
+      position: absolute;
+      top: 45%;
+      left: 60%;
+      transform: translate(-50%, -50%);
+      
+      
+     
+}
+
+.music-wrapper {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 999;
+    }
+
+    #music-toggle {
+      display: none;
+    }
+
+    .music-box {
+      width: 60px;
+      height: 60px;
+      background: rgba(144, 251, 87, 0.44);
+      border-radius: 50%;
+      box-shadow: 0 0 15px #0b491b77;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      backdrop-filter: blur(6px);
+      transition: 0.4s ease;
+    }
+
+    .music-box:hover {
+      box-shadow: 0 0 25px rgb(235, 245, 35);
+      transform: scale(1.05);
+    }
+    .music-box::before {
+      content: "🎵";
+      font-size: 26px;
+    }
+
+    #music-toggle:checked + .music-box {
+      width: 260px;
+      height: 80px;
+      border-radius: 14px;
+      box-shadow: 0 0 25px rgb(232, 247, 18);
+      justify-content: flex-start;
+      padding-left: 15px;
+    }
+
+    #music-toggle:checked + .music-box::before {
+      content: "Music Player";
+      font-size: 18px;
+      color: #7d2f07;
+      text-shadow: 0 0 10px #4bf52599;
+      margin-right: 10px;
+    }
+
+    .music-box audio {
+      display: none;
+      width: 150px;
+      filter: invert(80%) hue-rotate(160deg);
+    }
+
+    #music-toggle:checked + .music-box audio {
+      display: block;
+    }
